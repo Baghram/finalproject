@@ -1,0 +1,29 @@
+html{
+    cursor: url(http://cur.cursors-4u.net/games/gam-2/gam134.cur), auto;
+}
+body{
+    background-color: blanchedalmond;
+    cursor: url(http://cur.cursors-4u.net/games/gam-2/gam134.cur), auto;
+    
+}
+
+p{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+
+table{
+   background: linear-gradient(to bottom left,grey,white);
+    border-radius: 0.5cm;
+    border-color: blue;
+    border-style: inset;
+    text-align: center;
+    padding-left: 0%;
+    border-width: 5px;
+    margin-left: 25%;
+  
+
+
+}

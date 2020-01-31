@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Final Project Phase 0 MCC Batch 003</title>
+        <link href = "style.css" type = "text/css" rel = "stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="dollar.png">
+    </head>
+
+    <body>
+        <h1 style="color: blue;padding-left: 30%;">Cost Control Calculator </h1>
+        <br>
+
+        <div id = "table" style="background:linear-gradient(to top right,#ffccff,#ccffff);border-style: inset;border-radius: 4%;border-width: 5px;margin-left: 20%;
+        margin-right: 30%;margin-bottom: 1cm;
+        margin-top: 1cm;padding-bottom: 0.5cm;text-align: center;">
+           <form style="text-align: center;" action="#">
+            <table style="background-blend-mode: normal;padding-left: 0%;margin-left: 20%;margin-top: 1cm;">
+                <tr>
+                    <td colspan="2"><h1>PLEASE FILL THE BLANKS</h1></td>
+                </tr>
+               <tr>
+                   <th> Nama Badan Usaha :</th>
+                   <th><input id="company" type="text" name = 'name' value="" ></th>
+               </tr>
+               <tr>
+                   <th>Penghasilan Bulan Ini : </th>
+                   <th><input id="income" type="text" name = 'income' value="" width="40%"><br></th>
+               </tr>
+               <tr>
+                   <td colspan="2">Pengeluaran (mohon diisi)</th>
+               </tr>
+               <tr>
+                   <th> Gaji :</th>
+                   <th><input id="salary" type="text" name="salary" value =""></th>
+                </tr>
+                <tr>
+                    <th>Sewa :</th>
+                    <th><input id="rent" type="text" name="rent" value=""></th>
+                </tr>
+                <tr>
+                    <th>Material :</th>
+                    <th><input id="material" type="text" name="material" value=""></th>
+                </tr>
+               <tr style="padding-top: 0.5cm;">
+                    <th>Dll :</th>
+                    <th><input id="other" type="text" name="other" value=""></th>
+               </tr>
+            </table>
+
+
+              
+               
+               
+               
+               <!-- Tipe Pajak<br>
+               <div id="pajak">
+               <!-- <input type ='radio'  name = 'pajak' value = "hiburan">hiburan
+               <input type="radio"  name = 'pajak' value = "restoran">restoran -->
+               <!-- <select name="pajak" form="pajak">
+                <option value="hiburan">hiburan</option>
+                <option value="restoran">restoran</option>
+                </select> -->
+               <!-- <br>
+               </div> --> 
+               <!-- <input type="submit" onclick="test()"> -->
+              
+              
+               <br>
+               
+               <br>
+               
+               <br>
+               
+               
+                <button type = "button" onclick="test()"> Generate</button>
+           </form>
+            
+<br>
+<br>
+           <table border="1" id = "hasil" style="display: none;">
+                <tr>
+                    <th style="display: none;"></th>
+                    <th style="text-align: center;font-size: 30px;padding-left: 35%;border: 0;">Report</th>
+                    <th style="display: none;"></th>
+                </tr>
+                
+                <tr>
+                    <th>Name</th>
+                    <th>Ideal Numbers</th>
+                    <th>Reality numbers</th>
+                </tr>
+                <tr>
+                    <th>Gaji</th>
+                    <th><p id ="idealwage"></p></th>
+                    <th><p id="realitywage"></p></th>
+                </tr>
+                <tr>
+                    <th>Sewa</th>
+                    <th><p id="idealrent"></p></th>
+                    <th><p id="realityrent"></p></th>
+                </tr>
+                <tr>
+                    <th>Material</th>
+                    <th><p id="idealmaterial"></p></th>
+                    <th><p id="realitymaterial"></p></th>
+                </tr>
+                <tr>
+                    <th>DLL</th>
+                    <th><p id="idealother"></p></th>
+                    <th><p id="realityother"></p></th>
+                </tr>
+                <tr>
+                    <th>Profit</th>
+                    <th><p id="idealprofit"></p></th>
+                    <th><p id="realityprofit"></p></th>
+                </tr>
+
+           </table>
+           <p id="demooo"></p>
+           <p id="tet"></p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+
+    <script type="text/javascript" src="index.js"></script>
+    </body>
+
+</html>
